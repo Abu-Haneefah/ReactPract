@@ -19,6 +19,9 @@ function Navbar() {
         <NavLink to="/products" style={navLinkStyle}>
           Products
         </NavLink>
+        <NavLink to="/users" style={navLinkStyle}>
+          Users
+        </NavLink>
       </nav>
     </div>
   );
